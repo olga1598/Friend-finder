@@ -1,0 +1,124 @@
+//Saving each applications DATA in variable
+
+var friendsArray = [
+    {
+        "name":"Martin",
+        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "scores":[
+            5,
+            1,
+            4,
+            4,
+            5,
+            1,
+            2,
+            5,
+            4,
+            1
+        ]
+    },
+    {
+        "name":"Rebecca",
+        "photo":"https://images.unsplash.com/photo-1521001387824-8ce95375a74e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        "scores":[
+            2,
+            1,
+            2,
+            4,
+            2,
+            5,
+            5,
+            5,
+            2,
+            3
+        ]
+    },
+    {
+        "name":"Susan",
+        "photo":"https://images.unsplash.com/photo-1518524953969-1f1b32b3bf70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        "scores":[
+            5,
+            5,
+            4,
+            4,
+            1,
+            2,
+            2,
+            3,
+            3,
+            2
+        ]
+    },
+    {
+        "name":"Lisa",
+        "photo":"https://images.unsplash.com/photo-1542719018-ee28cbdc71ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        "scores":[
+            5,
+            1,
+            4,
+            2,
+            5,
+            5,
+            5,
+            5,
+            3,
+            3
+        ]
+    },
+    {
+        "name":"Travis",
+        "photo":"https://images.unsplash.com/photo-1497485692312-a26e1cc30f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+        "scores":[
+            1,
+            1,
+            1,
+            4,
+            1,
+            1,
+            2,
+            1,
+            4,
+            1
+        ]
+    },
+    {
+        "name":"Robert",
+        "photo":"https://images.unsplash.com/photo-1530842025973-11b5f5013b2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        "scores":[
+            1,
+            1,
+            4,
+            2,
+            5,
+            1,
+            2,
+            2,
+            4,
+            1
+        ]
+    },
+    {
+        "name":"Ivan",
+        "photo":"https://images.unsplash.com/photo-1493028356871-66fc4116d99d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        "scores":[
+            5,
+            1,
+            4,
+            3,
+            5,
+            5,
+            5,
+            4,
+            4,
+            2
+        ]
+    }
+
+
+];
+
+module.exports = friendsArray;
+  
+
+
+
