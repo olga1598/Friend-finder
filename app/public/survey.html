@@ -182,9 +182,9 @@
                     <h2 id="bestFriend"></h2>
                     <img id="bestFriendPhoto" src="" style="width:50%;" />
                 </div>
-                <!-- <div class="modal-footer">
-                    <button href="/" class="btn btn-default">Done</button>
-                </div>  -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Done</button>
+                </div>  
             </div>   
         </div>
     </div>
@@ -217,8 +217,9 @@
               scores: scores
             };
             console.log("WE HAVE new input: ", newFriend);
-            //$("#bestFriendModal").modal('toggle');
-            $("#bestFriendModal").modal('show');
+            $("#bestFriendModal").modal('toggle');
+            $(".btn btn-default").modal("hide");
+            //$("#bestFriendModal").modal('show');
 
           // The following code is similar to the standard ajax function we used.
           // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
