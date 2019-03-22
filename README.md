@@ -14,3 +14,7 @@ __Technologies Used__
     - Express
     - Node
     - JSON
+
+
+### Hosting on heroku:
+https://shielded-harbor-38775.herokuapp.com/
